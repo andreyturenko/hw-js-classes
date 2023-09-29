@@ -101,7 +101,7 @@ class RangeValidator {
 const range1 = new RangeValidator(1, 5.5);
 
 try {
-  const rangeChecking = new RangeValidator(10, 5.5);
+  new RangeValidator(10, 5.5);
 } catch (err) {
   console.log(err);
 }
